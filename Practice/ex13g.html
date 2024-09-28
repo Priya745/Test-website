@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flexbox {
+      display: flex;
+    }
+
+    .image {
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+    }
+    .header{
+      display: flex;
+      flex-direction: row;
+    }
+    .description{
+      width: 320px;
+    }
+    .video{
+      border-style: solid;
+      width: 320px;
+      display: flex;
+      flex-direction: row;
+      border-radius: 10px;
+      border-width: 1px;
+      margin-top: 5px;
+      height:60px;
+      border-color: grey;
+    }
+    .left{
+      width:90px;
+      height: 60px;
+      background-color: rgb(190, 187, 187);
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      margin-right: 5px;
+      
+      
+    }
+    .right-section{
+      margin-left: 10px;
+    }
+    .youtube{
+      color:grey;
+      margin-top: 5px;
+    }
+    .video-description{
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flexbox">
+    <div class="left-section">
+      <img class="image" src="images/cat.jpeg" alt="">
+    </div>
+    <div class="right-section">
+      <div class="header">
+        <div calss="name">supersimple.dev</div>
+        <div class="link">@SuperSimpleDev</div>
+      </div>
+      <div class="description">What is backend web development? A complete overview. New video is up!</div>
+      <div class="video">
+        <div class="left">
+          
+        </div>
+        <div class="right">
+          <div class="youtube">youtube.com</div>
+          <div class="video-description">Backend web development - a complete overview(2021)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

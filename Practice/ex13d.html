@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flexbox{
+      display:flex;
+      align-items: center;
+      border-style: solid;
+      height: 60px;
+      width:500px;
+      margin-left: 5px;
+      border-width: 1px;
+      border-color: grey;
+      border-radius: 5px;
+      box-shadow: inset 1px 1px 1px rgb(184, 183, 183);
+    }
+    .cat-image{
+      height: 50px;
+      width:50px;
+      border-radius: 25px;
+      margin-left: 8px;
+    }
+    p{
+      margin:0;
+      margin-left: 9px;
+    }
+    .first-line{
+      font-weight: bolder;
+    }
+    .second-line{
+      font-weight: bold;
+      font-size: 15px;
+    }
+    .third-line{
+      font-size: 15px;
+      color: grey;
+    }
+    .right-section{
+      font-size: 13px;
+      color:rgb(97, 96, 96);
+      display: flex;
+      align-items: flex-start;
+    }
+  </style>
+</head>
+<body style="font-family: arial;">
+  <h3>ALL INBOXES</h3>
+
+  <div class="flexbox">
+    <div class="left-section">
+      <img class="cat-image" src="images/cat.jpeg">
+    </div>
+    <div class="middle-section">
+      <p class="first-line">Chewy Promotions</p>
+      <p class="second-line">Biggest sales of the year!</p>
+      <p class="third-line">Hey there! We're writing to tell you about our...</p>
+    </div>
+    <div class="right-section">
+      4:58 PM
+    </div>
+  </div>
+</body>
+</html>
